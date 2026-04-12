@@ -53,6 +53,7 @@
                     android:src="@drawable/banner_pendaftaran" />
 
                 <TextView
+                    android:id="@+id/txtJudulTesReguler"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="25dp"
@@ -62,31 +63,98 @@
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
+                <!-- Materi Tes -->
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:text="Jalur Tes Reguler UMN diperuntukkan bagi calon mahasiswa yang ingin bergabung melalui tes seleksi reguler yang diselenggarakan oleh UMN."
-                    android:textAlignment="center"
+                    android:layout_marginTop="15dp"
+                    android:text="Materi Tes:"
+                    android:textColor="#004D73"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Bahasa Inggris, Matematika, Psikotes dan Gambar (Khusus Fakultas Seni &amp; Desain)"
+                    android:textColor="#004D73"
+                    android:textSize="12sp" />
+
+                <!-- Alat Tulis -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Alat Tulis yang dibutuhkan:"
+                    android:textColor="#004D73"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Pensil 2B dan penghapus. (Manual)\nAlat Online yang disiapkan: Mobile Phone / Laptop / PC &amp; Koneksi Internet"
+                    android:textColor="#004D73"
+                    android:textSize="12sp" />
+
+                <!-- Catatan -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Catatan:"
+                    android:textColor="#004D73"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Calon Mahasiswa harus membawa Kartu Identitasnya (Kartu Pelajar/KTP) (Manual)"
+                    android:textColor="#004D73"
+                    android:textSize="12sp" />
+
+                <!-- Pendaftaran Info -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="1. Pendaftaran Langsung"
+                    android:textColor="#004D73"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Untuk Pendaftaran, datang dan kunjungi!\nKampus UMN, Scientia Garden\nJl. Boulevard Gading Serpong, Tangerang-Banten\nTelp. (021) 5422 0808; Fax. (021) 5422 0800\ne-mail: marketing@umn.ac.id"
                     android:textColor="#004D73"
                     android:textSize="12sp" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:id="@+id/txtFormulirOnline"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:text="Materi Tes Reguler"
+                    android:layout_marginTop="15dp"
+                    android:text="2. Pendaftaran: Formulir Online"
                     android:textColor="#004D73"
-                    android:textSize="16sp"
+                    android:textSize="14sp"
                     android:textStyle="bold" />
 
+                <!-- Section gambar catatan -->
+
                 <ImageView
+                    android:id="@+id/imgCatatanBagi"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:adjustViewBounds="true"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/info_reguler" />
+                    android:src="@drawable/catatanbagi" />
 
                 <View
                     android:layout_width="match_parent"
@@ -107,81 +175,6 @@
         android:focusable="true"
         android:src="@drawable/back" />
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/bottomNav"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
-        android:elevation="8dp"
-        app:cardBackgroundColor="#0077B6"
-        app:cardCornerRadius="20dp">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:weightSum="4">
-
-            <LinearLayout
-                android:id="@+id/navHome"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/button_home" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/navProfil"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/button_profil" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/navFakultas"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/button_fakultas" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/navFasilitas"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/button_fasilitas" />
-            </LinearLayout>
-        </LinearLayout>
-    </androidx.cardview.widget.CardView>
 
 </RelativeLayout>

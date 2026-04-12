@@ -37,5 +37,27 @@ public class JalurAkademikActivity extends AppCompatActivity {
         if (navFasilitas != null) navFasilitas.setOnClickListener(v -> {
             startActivity(new Intent(this, FasilitasActivity.class));
         });
+
+        // Pasang fitur zoom popup untuk semua gambar konten
+        setupZoomableImages();
+    }
+
+    private void setupZoomableImages() {
+        int[] imageIds = {
+                R.id.imgBannerPendaftaran,
+                R.id.imgPersyaratanAkademik,
+                R.id.imgPersyaratanDkv,
+                R.id.imgPersyaratanFilm,
+                R.id.imgPersyaratanHotel,
+                R.id.imgProsedurPendaftaran,
+                R.id.imgCatatanBagi
+        };
+
+        for (int id : imageIds) {
+            ImageView img = findViewById(id);
+            if (img != null) {
+                ImagePopupHelper.makeZoomable(this, img);
+            }
+        }
     }
 }
