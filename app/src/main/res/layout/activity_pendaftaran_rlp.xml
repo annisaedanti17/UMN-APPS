@@ -99,7 +99,9 @@
                     android:adjustViewBounds="true"
                     android:src="@drawable/rpl1"
                     android:clickable="true"
-                    android:focusable="true"/> <ImageView
+                    android:focusable="true"/>
+
+                <ImageView
                     android:id="@+id/btnRplS2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

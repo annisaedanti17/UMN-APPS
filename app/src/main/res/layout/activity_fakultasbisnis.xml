@@ -64,26 +64,28 @@
                 </androidx.cardview.widget.CardView>
 
                 <!-- Program Diploma -->
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
+                    android:layout_marginBottom="15dp"
                     android:gravity="center"
-                    android:layout_marginBottom="15dp">
+                    android:orientation="horizontal">
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Program "
+                        android:textColor="#F37021"
                         android:textSize="18sp"
-                        android:textStyle="bold"
-                        android:textColor="#F37021" /> <!-- Oranye -->
+                        android:textStyle="bold" /> <!-- Oranye -->
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Diploma"
+                        android:textColor="#004D73"
                         android:textSize="18sp"
-                        android:textStyle="bold"
-                        android:textColor="#004D73" /> <!-- Biru -->
+                        android:textStyle="bold" /> <!-- Biru -->
                 </LinearLayout>
 
                 <ImageView
