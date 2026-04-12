@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Header -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ellipse_biru"
+                    android:contentDescription="Header Background" />
+
+            </RelativeLayout>
+
+            <!-- Main Content Container -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:layout_marginTop="-170dp"
+                android:layout_marginBottom="30dp"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+
+                <!-- Banner Utama -->
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/banner_fteknik2"
+                    android:elevation="10dp"
+                    android:contentDescription="Banner Fakultas\\" />
+
+
+
+                <!-- Visi Misi Section -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/visimisi_fteknik"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter" />
+                </androidx.cardview.widget.CardView>
+
+                <!-- Program Sarjana -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginBottom="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Program "
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#F37021" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sarjana"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#004D73" />
+                </LinearLayout>
+
+                <!-- Grid Programs (Manual Layout for 3-2 grid) -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        android:layout_marginBottom="15dp">
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/prodi_komputer"
+                            android:layout_marginEnd="5dp"
+                            android:scaleType="centerCrop" />
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/prodi_informatika"
+                            android:layout_marginHorizontal="5dp"
+                            android:scaleType="centerCrop" />
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/prodi_elektro"
+                            android:layout_marginStart="5dp"
+                            android:scaleType="centerCrop" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:weightSum="3"
+                        android:layout_marginBottom="30dp">
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/prodi_tfisika"
+                            android:layout_marginEnd="5dp"
+                            android:scaleType="centerCrop" />
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="80dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/prodi_sisteminformasi"
+                            android:layout_marginStart="5dp"
+                            android:scaleType="centerCrop" />
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Program Internasional -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginBottom="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Program "
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#F37021" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Internasional"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#004D73" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/prodi_jointdegree"
+                    android:layout_marginBottom="40dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/back"
+        android:clickable="true"
+        android:focusable="true" />
+
+
+
+
+</RelativeLayout>

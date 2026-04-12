@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo_umn"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:src="@drawable/logo_splash"
+            android:contentDescription="UMN Logo" />
+
+        <TextView
+            android:id="@+id/tv_umn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-20dp"
+            android:text="Universitas Multimedia Nusantara"
+            android:textAlignment="center"
+            android:textColor="@color/umn_blue"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="40dp">
+
+        <TextView
+            android:id="@+id/tv_quote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="A proper education sets people up to grow personally, professionally, and socially."
+            android:textAlignment="center"
+            android:textColor="@color/umn_blue"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:lineSpacingExtra="4dp" />
+
+        <Button
+            android:id="@+id/btnGetStarted"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#003D6B"
+            android:text="Let's Explore!"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

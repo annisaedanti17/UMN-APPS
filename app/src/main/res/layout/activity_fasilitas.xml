@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNavCard"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Header Fasilitas -->
+            <RelativeLayout
+                android:id="@+id/headerFasilitas"
+                android:layout_width="match_parent"
+                android:layout_height="220dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ellipse_biru"
+                    android:scaleType="fitXY"
+                    android:contentDescription="Background Header" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fasilitas Kampus"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="50dp" />
+            </RelativeLayout>
+
+            <!-- Konten Utama -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:layout_marginTop="-100dp"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp"
+                    android:layout_marginBottom="20dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/baner_fasilitas"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:contentDescription="Banner Green Campus" />
+                </androidx.cardview.widget.CardView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/info_fasilitas"
+                    android:adjustViewBounds="true"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="Info Fasilitas" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp">
+                    <ImageView
+                        android:id="@+id/btnPrevFasilitas"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/prev_button"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="Tombol Sebelumnya" />
+                    <TextView
+                        android:id="@+id/txtNamaFasilitas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fasilitas Umum"
+                        android:textColor="#004D73"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_centerInParent="true" />
+                    <ImageView
+                        android:id="@+id/btnNextFasilitas"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/next_button"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="Tombol Selanjutnya" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/imgFasilitas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fasilitas_umum"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="Galeri Fasilitas" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom Navigation -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/bottomNavCard"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:cardBackgroundColor="#0077B6"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/navHome"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/button_home" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/navProfil"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:clickable="true"
+                android:focusable="true">>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/button_profil" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/navFakultas"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/button_fakultas" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/button_fasilitas" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
