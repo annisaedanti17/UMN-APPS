@@ -97,6 +97,15 @@
             android:name=".JalurTesRegulerActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".JalurRPL1"
+            android:exported="false" />
+
+        <activity
+            android:name=".JalurRPL2"
+            android:exported="false" />
+
+
     </application>
 
 </manifest>
