@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Brand Colors -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Adaptive colors (Light mode defaults) -->
     <color name="umn_blue">#004D73</color>
+    <color name="umn_blue_light">#0077B6</color>
+    <color name="umn_accent">#FF7C00</color>
+    <color name="umn_button_dark">#003D6B</color>
+
+    <!-- Backgrounds -->
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorSurfaceVariant">#F5F5F5</color>
+
+    <!-- Text -->
+    <color name="colorHeadingPrimary">#004D73</color>
+    <color name="colorHeadingAccent">#0077B6</color>
+    <color name="colorBodyText">#333333</color>
+    <color name="colorSubtleText">#888888</color>
+    <color name="colorOnSurface">#1C1C1E</color>
+
+    <!-- Nav Bar -->
+    <color name="colorNavBar">#0077B6</color>
+    <color name="colorNavBarText">#FFFFFF</color>
+
+    <!-- Card -->
+    <color name="colorCardBackground">#FFFFFF</color>
 </resources>

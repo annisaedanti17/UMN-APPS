@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF">
+    android:background="@color/colorBackground">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -58,7 +58,7 @@
                     android:layout_marginTop="25dp"
                     android:text="Jalur Pendaftaran Beasiswa"
                     android:textAlignment="center"
-                    android:textColor="#0077B6"
+                    android:textColor="@color/colorHeadingAccent"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -66,31 +66,74 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="Jalur Beasiswa UMN memberikan berbagai kesempatan beasiswa bagi calon mahasiswa yang berprestasi di bidang akademik, olahraga, seni, maupun olimpiade sains."
+                    android:text="Jalur Tes Beasiswa UMN dapat dimanfaatkan oleh seluruh calon mahasiswa (khusus siswa kelas XII) dengan mengikuti tes. Calon mahasiswa akan mendapat beasiswa berupa potongan biaya kuliah mulai dari uang pangkal hingga biaya semester berdasarkan hasil tes."
                     android:textAlignment="center"
-                    android:textColor="#004D73"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="12sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="Persyaratan Beasiswa"
-                    android:textColor="#004D73"
+                    android:text="Jadwal Tes Beasiswa"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
                 <ImageView
+                    android:id="@+id/imgJadwalTes"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:adjustViewBounds="true"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/info_reguler" />
+                    android:src="@drawable/jadwal_tes_beasiswa" />
 
-                <View
+                <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="100dp" />
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Jalur Tes Beasiswa UMN dapat dimanfaatkan oleh seluruh calon mahasiswa (khusus siswa kelas XII) dengan mengikuti tes. Calon mahasiswa akan mendapat beasiswa berupa potongan biaya kuliah mulai dari uang pangkal hingga biaya semester berdasarkan hasil tes."
+                    android:textAlignment="center"
+                    android:textColor="@color/colorHeadingPrimary"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/imgPersyaratanBeasiswa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/persyaratan_beasiswa" />
+
+                <ImageView
+                    android:id="@+id/imgTesTambahanKhusus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/tes_tambahan_khusus" />
+
+                <ImageView
+                    android:id="@+id/imgInformasiPendaftaran"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/informasi_dan_pendaftaran" />
+
+                <ImageView
+                    android:id="@+id/imgCatatanBagi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/catatanbagi" />
+
 
             </LinearLayout>
         </LinearLayout>
@@ -107,81 +150,6 @@
         android:focusable="true"
         android:src="@drawable/back" />
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/bottomNav"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
-        android:elevation="8dp"
-        app:cardBackgroundColor="#0077B6"
-        app:cardCornerRadius="20dp">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:weightSum="4">
-
-            <LinearLayout
-                android:id="@+id/navHome"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/button_home" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/navProfil"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/button_profil" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/navFakultas"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/button_fakultas" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/navFasilitas"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/button_fasilitas" />
-            </LinearLayout>
-        </LinearLayout>
-    </androidx.cardview.widget.CardView>
 
 </RelativeLayout>

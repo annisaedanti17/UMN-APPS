@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF">
+    android:background="@color/colorBackground">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -59,7 +59,7 @@
                     android:layout_marginTop="25dp"
                     android:text="Jalur Pendaftaran Akademik"
                     android:textAlignment="center"
-                    android:textColor="#0077B6"
+                    android:textColor="@color/colorHeadingAccent"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -69,7 +69,7 @@
                     android:layout_marginTop="10dp"
                     android:text="Jalur Akademik UMN adalah jalur pendaftaran calon mahasiswa yang memenuhi syarat seleksi dievaluasi oleh Panitia Penerimaan Mahasiswa Baru UMN, diterima di UMN tanpa tes dan mendapatkan Grade A."
                     android:textAlignment="center"
-                    android:textColor="#004D73"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="12sp" />
 
                 <TextView
@@ -77,7 +77,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="Persyaratan Jalur Akademik"
-                    android:textColor="#004D73"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -87,7 +87,7 @@
                     android:layout_marginTop="5dp"
                     android:text="Berlaku bagi calon lulusan SLTA tahun 2026"
 
-                    android:textColor="#004D73"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="12sp" />
 
 
@@ -106,7 +106,7 @@
                     android:layout_marginTop="1dp"
                     android:text="* Nilai > KKM / SKBM adalah syarat mengikuti Jalur Akademis"
 
-                    android:textColor="#004D73"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="12sp" />
 
                 <TextView
@@ -114,7 +114,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="80dp"
                     android:text="Persyaratan khusus Program Studi DKV, Film dan Animasi dan D3 Perhotelan:"
-                    android:textColor="#004D73"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="12sp" />
 
                 <ImageView

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF">
+    android:background="@color/colorBackground">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -65,7 +65,7 @@
                     android:layout_marginTop="20dp"
                     android:text="RPL Magister Manajemen Teknologi (S2)"
                     android:textAlignment="center"
-                    android:textColor="#004D73"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -105,7 +105,7 @@
                     android:layout_marginTop="15dp"
                     android:text="&quot;Pengalaman adalah fondasi, pendidikan adalah penguatnya. Melalui RPL Magister Manajemen Teknologi, Anda memimpin perubahan dengan kredibilitas akademik.&quot;"
                     android:textAlignment="center"
-                    android:textColor="#004D73"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="12sp"
                     android:textStyle="italic" />
 
@@ -114,7 +114,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:text="Rekognisi Pembelajaran Lampau (RPL) Tipe A di Universitas Multimedia Nusantara (UMN) tahun 2025 untuk menyetarakan pengalaman kerja dan pembelajaran nonformal ke dalam kualifikasi akademik. Melalui kerangka asesmen yang transparan dan akuntabel, UMN berkomitmen memperluas akses pendidikan tinggi serta mendukung pengembangan SDM berbasis ICT dan pembelajaran sepanjang hayat."
-                    android:textColor="#004D73"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="12sp" />
 
                 <TextView
@@ -122,7 +122,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="Persyaratan Masuk"
-                    android:textColor="#004D73"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 

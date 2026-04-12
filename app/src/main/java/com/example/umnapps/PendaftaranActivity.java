@@ -5,9 +5,8 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import androidx.appcompat.app.AppCompatActivity;
 
-public class PendaftaranActivity extends AppCompatActivity {
+public class PendaftaranActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF">
+    android:background="@color/colorBackground">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -90,7 +90,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Fakultas"
-                        android:textColor="#004D73"
+                        android:textColor="@color/colorHeadingPrimary"
                         android:textSize="18sp"
                         android:textStyle="bold" />
                     <TextView
@@ -99,7 +99,7 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentEnd="true"
                         android:text="View All"
-                        android:textColor="#004D73"
+                        android:textColor="@color/colorHeadingPrimary"
                         android:textSize="14sp"
                         android:clickable="true"
                         android:focusable="true" />
@@ -128,7 +128,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:text="Teknik"
-                            android:textColor="#0077B6"
+                            android:textColor="@color/colorHeadingAccent"
                             android:textStyle="bold"
                             android:textSize="12sp" />
                     </LinearLayout>
@@ -151,7 +151,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:text="Bisnis"
-                            android:textColor="#0077B6"
+                            android:textColor="@color/colorHeadingAccent"
                             android:textStyle="bold"
                             android:textSize="12sp" />
                     </LinearLayout>
@@ -174,7 +174,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:text="Komunikasi"
-                            android:textColor="#0077B6"
+                            android:textColor="@color/colorHeadingAccent"
                             android:textStyle="bold"
                             android:textSize="12sp" />
                     </LinearLayout>
@@ -197,7 +197,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
                             android:text="Seni &amp; Desain"
-                            android:textColor="#0077B6"
+                            android:textColor="@color/colorHeadingAccent"
                             android:textStyle="bold"
                             android:textSize="12sp" />
                     </LinearLayout>
@@ -252,7 +252,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Berita Terkini"
-                        android:textColor="#004D73"
+                        android:textColor="@color/colorHeadingPrimary"
                         android:textSize="18sp"
                         android:textStyle="bold" />
                     <TextView
@@ -262,7 +262,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_centerVertical="true"
                         android:text="View All"
-                        android:textColor="#004D73"
+                        android:textColor="@color/colorHeadingPrimary"
                         android:textSize="14sp"
                         android:clickable="true"
                         android:focusable="true" />
@@ -311,7 +311,7 @@
                 android:orientation="vertical"
                 android:padding="20dp"
                 android:gravity="center_horizontal">
-                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AWARDS &amp; RECOGNITION" android:textColor="#004D73" android:textSize="18sp" android:textStyle="bold" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AWARDS &amp; RECOGNITION" android:textColor="@color/colorHeadingPrimary" android:textSize="18sp" android:textStyle="bold" />
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -332,7 +332,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        app:cardBackgroundColor="#0077B6"
+        app:cardBackgroundColor="@color/colorNavBar"
         app:cardCornerRadius="20dp"
         app:cardElevation="8dp">
 

@@ -4,9 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import androidx.appcompat.app.AppCompatActivity;
 
-public class FakultasActivity extends AppCompatActivity {
+public class FakultasActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

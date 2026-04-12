@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF">
+    android:background="@color/colorBackground">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -65,7 +65,7 @@
                     android:layout_marginTop="20dp"
                     android:text="RPL PJJ Ilmu Komunikasi (S1)"
                     android:textAlignment="center"
-                    android:textColor="#004D73"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -94,7 +94,7 @@
                     android:layout_marginTop="15dp"
                     android:text="&quot;Ubah pengalaman menjadi pencapaian akademik yang diakui. Dengan RPL S1 Ilmu Komunikasi, kuliah bisa lebih singkat, fleksibel, dan relevan dengan kariermu.&quot;"
                     android:textAlignment="center"
-                    android:textColor="#004D73"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="12sp"
                     android:textStyle="italic" />
 
@@ -103,7 +103,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:text="Rekognisi Pembelajaran Lampau (RPL) Tipe A di Universitas Multimedia Nusantara (UMN) tahun 2025 untuk menyelaraskan pengalaman kerja dan pembelajaran nonformal ke dalam kualifikasi akademik. Melalui kerangka asesmen yang transparan dan akuntabel, UMN berkomitmen memperluas akses pendidikan tinggi serta mendukung pengembangan SDM berbasis ICT dan pembelajaran sepanjang hayat."
-                    android:textColor="#004D73"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="12sp" />
 
                 <TextView
@@ -111,7 +111,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="Persyaratan Masuk"
-                    android:textColor="#004D73"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 

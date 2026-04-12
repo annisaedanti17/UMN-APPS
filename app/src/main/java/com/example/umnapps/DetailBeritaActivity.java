@@ -6,9 +6,8 @@ import android.text.Html;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import androidx.appcompat.app.AppCompatActivity;
 
-public class DetailBeritaActivity extends AppCompatActivity {
+public class DetailBeritaActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

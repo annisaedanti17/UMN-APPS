@@ -1,8 +1,17 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+    <!-- Base application theme (Light) -->
     <style name="Base.Theme.UMNAPPS" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/umn_blue</item>
+        <item name="colorPrimaryContainer">@color/umn_blue_light</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/umn_blue_light</item>
+        <item name="colorTertiary">@color/umn_accent</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorSurfaceVariant">@color/colorSurfaceVariant</item>
+        <item name="android:statusBarColor">@color/umn_blue</item>
+        <item name="android:navigationBarColor">@color/colorBackground</item>
     </style>
 
     <style name="Theme.UMNAPPS" parent="Base.Theme.UMNAPPS" />

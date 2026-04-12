@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF">
+    android:background="@color/colorBackground">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -89,7 +89,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Fasilitas Umum"
-                        android:textColor="#004D73"
+                        android:textColor="@color/colorHeadingPrimary"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:layout_centerInParent="true" />
@@ -124,7 +124,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        app:cardBackgroundColor="#0077B6"
+        app:cardBackgroundColor="@color/colorNavBar"
         app:cardCornerRadius="20dp"
         app:cardElevation="8dp">
 

@@ -5,9 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import androidx.appcompat.app.AppCompatActivity;
 
-public class ProfilActivity extends AppCompatActivity {
+public class ProfilActivity extends BaseActivity {
 
     // --- DATA SEJARAH (Looping) ---
     int[] daftarSejarah = {

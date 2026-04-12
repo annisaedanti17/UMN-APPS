@@ -2,9 +2,8 @@ package com.example.umnapps;
 
 import android.os.Bundle;
 import android.widget.ImageView;
-import androidx.appcompat.app.AppCompatActivity;
 
-public class FakultasBisnis extends AppCompatActivity {
+public class FakultasBisnis extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

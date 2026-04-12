@@ -6,9 +6,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import androidx.appcompat.app.AppCompatActivity;
 
-public class FasilitasActivity extends AppCompatActivity {
+public class FasilitasActivity extends BaseActivity {
 
     // Data Fasilitas
     String[] namaFasilitas = {"Fasilitas Umum", "Fasilitas Fakultas Teknik", "Fasilitas Fakultas Bisnis", "Fasilitas Fakultas Komunikasi", "Fasilitas Fakultas Seni & Desain"};

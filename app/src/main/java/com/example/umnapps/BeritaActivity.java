@@ -4,9 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import androidx.appcompat.app.AppCompatActivity;
 
-public class BeritaActivity extends AppCompatActivity {
+public class BeritaActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

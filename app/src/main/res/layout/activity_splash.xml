@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
+    android:background="@color/colorBackground">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -25,7 +25,7 @@
             android:layout_marginTop="-20dp"
             android:text="Universitas Multimedia Nusantara"
             android:textAlignment="center"
-            android:textColor="@color/umn_blue"
+            android:textColor="@color/colorHeadingPrimary"
             android:textSize="28sp"
             android:textStyle="bold" />
 
@@ -47,7 +47,7 @@
             android:layout_marginBottom="20dp"
             android:text="A proper education sets people up to grow personally, professionally, and socially."
             android:textAlignment="center"
-            android:textColor="@color/umn_blue"
+            android:textColor="@color/colorHeadingPrimary"
             android:textSize="17sp"
             android:textStyle="bold"
             android:lineSpacingExtra="4dp" />
@@ -56,7 +56,7 @@
             android:id="@+id/btnGetStarted"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:backgroundTint="#003D6B"
+            android:backgroundTint="@color/umn_button_dark"
             android:text="Let's Explore!"
             android:textAllCaps="false"
             android:textColor="@color/white"

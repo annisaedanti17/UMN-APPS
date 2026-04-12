@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF">
+    android:background="@color/colorBackground">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -59,7 +59,7 @@
                     android:layout_marginTop="25dp"
                     android:text="Jalur Pendaftaran Tes Reguler"
                     android:textAlignment="center"
-                    android:textColor="#0077B6"
+                    android:textColor="@color/colorHeadingAccent"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -69,7 +69,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:text="Materi Tes:"
-                    android:textColor="#004D73"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -78,7 +78,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:text="Bahasa Inggris, Matematika, Psikotes dan Gambar (Khusus Fakultas Seni &amp; Desain)"
-                    android:textColor="#004D73"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="12sp" />
 
                 <!-- Alat Tulis -->
@@ -87,7 +87,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:text="Alat Tulis yang dibutuhkan:"
-                    android:textColor="#004D73"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -96,7 +96,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:text="Pensil 2B dan penghapus. (Manual)\nAlat Online yang disiapkan: Mobile Phone / Laptop / PC &amp; Koneksi Internet"
-                    android:textColor="#004D73"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="12sp" />
 
                 <!-- Catatan -->
@@ -105,7 +105,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:text="Catatan:"
-                    android:textColor="#004D73"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -114,7 +114,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:text="Calon Mahasiswa harus membawa Kartu Identitasnya (Kartu Pelajar/KTP) (Manual)"
-                    android:textColor="#004D73"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="12sp" />
 
                 <!-- Pendaftaran Info -->
@@ -123,7 +123,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:text="1. Pendaftaran Langsung"
-                    android:textColor="#004D73"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -132,7 +132,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:text="Untuk Pendaftaran, datang dan kunjungi!\nKampus UMN, Scientia Garden\nJl. Boulevard Gading Serpong, Tangerang-Banten\nTelp. (021) 5422 0808; Fax. (021) 5422 0800\ne-mail: marketing@umn.ac.id"
-                    android:textColor="#004D73"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="12sp" />
 
                 <TextView
@@ -141,7 +141,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:text="2. Pendaftaran: Formulir Online"
-                    android:textColor="#004D73"
+                    android:textColor="@color/colorHeadingPrimary"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
