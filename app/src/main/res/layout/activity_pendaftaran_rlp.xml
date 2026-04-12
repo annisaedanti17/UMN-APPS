@@ -47,59 +47,85 @@
 
 
                 <ImageView
-                android:id="@+id/bannerRplQuote"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:elevation="5dp"
-                android:scaleType="fitCenter"
-                android:src="@drawable/banner_pendaftaran" />
+                    android:id="@+id/bannerRplQuote"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:elevation="5dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/banner_pendaftaran" />
 
-                <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Jalur Pendaftaran Online"
-                android:textColor="#0077B6"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textAlignment="center"
-                android:layout_marginTop="25dp" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="25dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jalur Pendaftaran "
+                        android:textColor="#004D73"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Online"
+                        android:textColor="#F37021"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Universitas Multimedia Nusantara memiliki berbagai prosedur pendaftaran online sesuai dengan kriteriamu."
-                    android:textColor="#0077B6"
-                    android:textSize="12sp"
-                    android:textAlignment="center"
                     android:layout_marginTop="5dp"
-                    android:layout_marginBottom="20dp" />
+                    android:layout_marginBottom="20dp"
+                    android:text="Universitas Multimedia Nusantara memiliki berbagai prosedur pendaftaran online sesuai dengan kriteriamu."
+                    android:textAlignment="center"
+                    android:textColor="#004D73"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Prosedur Pendaftaran Online"
+                    android:textColor="#004D73"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
 
                 <ImageView
                     android:id="@+id/imgProsedurRpl"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:adjustViewBounds="true"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/online_pendaftaran" /> <TextView
+                    android:src="@drawable/online_pendaftaran" />
+
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="20dp"
                     android:text="Jalur Pendaftaran"
+                    android:textAlignment="center"
                     android:textColor="#004D73"
                     android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:textAlignment="center"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginBottom="20dp"/>
+                    android:textStyle="bold" />
 
                 <ImageView
                     android:id="@+id/btnRplS1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/rpl1"
                     android:clickable="true"
-                    android:focusable="true"/>
+                    android:focusable="true"
+                    android:src="@drawable/rpl1" />
 
                 <ImageView
                     android:id="@+id/btnRplS2"
@@ -107,9 +133,11 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/rpl2"
                     android:clickable="true"
-                    android:focusable="true"/> <View
+                    android:focusable="true"
+                    android:src="@drawable/rpl2" />
+
+                <View
                     android:layout_width="match_parent"
                     android:layout_height="100dp" />
 
@@ -124,11 +152,9 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="50dp"
-        android:src="@drawable/back"
         android:clickable="true"
-        android:focusable="true" />
-
-
+        android:focusable="true"
+        android:src="@drawable/back" />
 
 
 </RelativeLayout>
