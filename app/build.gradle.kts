@@ -31,6 +31,24 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+
+    // Multiple resource directories untuk organisasi drawable yang rapi
+    sourceSets {
+        getByName("main") {
+            res.srcDirs(
+                "src/main/res",
+                "src/main/res-home",
+                "src/main/res-banner",
+                "src/main/res-berita",
+                "src/main/res-fakultas",
+                "src/main/res-fasilitas",
+                "src/main/res-prodi",
+                "src/main/res-pendaftaran",
+                "src/main/res-sejarah",
+                "src/main/res-icons"
+            )
+        }
+    }
 }
 
 dependencies {
