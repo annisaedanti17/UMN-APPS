@@ -87,5 +87,11 @@ public class PendaftaranReguler extends AppCompatActivity {
                 finish();
             });
         }
+
+        // Fitur zoom popup pada gambar prosedur
+        ImageView imgProsedur = findViewById(R.id.imgProsedur);
+        if (imgProsedur != null) {
+            ImagePopupHelper.makeZoomable(this, imgProsedur);
+        }
     }
 }
