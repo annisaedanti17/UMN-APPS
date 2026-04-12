@@ -45,6 +45,7 @@
                 android:paddingEnd="20dp">
 
                 <ImageView
+                    android:id="@+id/imgBannerPendaftaran"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
@@ -80,13 +81,87 @@
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Berlaku bagi calon lulusan SLTA tahun 2026"
+
+                    android:textColor="#004D73"
+                    android:textSize="12sp" />
+
+
                 <ImageView
+                    android:id="@+id/imgPersyaratanAkademik"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:adjustViewBounds="true"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/info_reguler" />
+                    android:src="@drawable/persyaratanjalurkaakademik" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="* Nilai > KKM / SKBM adalah syarat mengikuti Jalur Akademis"
+
+                    android:textColor="#004D73"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp"
+                    android:text="Persyaratan khusus Program Studi DKV, Film dan Animasi dan D3 Perhotelan:"
+                    android:textColor="#004D73"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/imgPersyaratanDkv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/persyaratandkv" />
+
+                <ImageView
+                    android:id="@+id/imgPersyaratanFilm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/persyaratanstudifilm" />
+
+                <ImageView
+                    android:id="@+id/imgPersyaratanHotel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/persyaratand3hotel" />
+
+                <ImageView
+                    android:id="@+id/imgProsedurPendaftaran"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/prosedurpendaftaran" />
+
+                <ImageView
+                    android:id="@+id/imgCatatanBagi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/catatanbagi" />
+
 
                 <View
                     android:layout_width="match_parent"
@@ -107,81 +182,5 @@
         android:focusable="true"
         android:src="@drawable/back" />
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/bottomNav"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
-        android:elevation="8dp"
-        app:cardBackgroundColor="#0077B6"
-        app:cardCornerRadius="20dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:orientation="horizontal"
-            android:weightSum="4">
-
-            <LinearLayout
-                android:id="@+id/navHome"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/button_home" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/navProfil"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/button_profil" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/navFakultas"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/button_fakultas" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/navFasilitas"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:src="@drawable/button_fasilitas" />
-            </LinearLayout>
-        </LinearLayout>
-    </androidx.cardview.widget.CardView>
 
 </RelativeLayout>
