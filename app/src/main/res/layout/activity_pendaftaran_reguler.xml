@@ -159,6 +159,7 @@
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="true"
                         android:src="@drawable/tes_beasiswa" />
+
                 </LinearLayout>
 
                 <View
