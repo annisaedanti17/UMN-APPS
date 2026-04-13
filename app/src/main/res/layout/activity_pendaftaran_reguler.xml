@@ -107,8 +107,9 @@
                         android:adjustViewBounds="true"
                         android:src="@drawable/akademik" />
 
+                    <!-- Jalur Beasiswa (karya sendiri) — dipindah ke kanan atas -->
                     <ImageView
-                        android:id="@+id/btnTesBeasiswa"
+                        android:id="@+id/btnJalurBeasiswa"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -142,6 +143,22 @@
                         android:layout_marginStart="10dp"
                         android:adjustViewBounds="true"
                         android:src="@drawable/tes_reguler" />
+                </LinearLayout>
+
+                <!-- Jalur Tes Beasiswa — dipindah ke baris bawah -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="15dp"
+                    android:baselineAligned="false">
+
+                    <ImageView
+                        android:id="@+id/btnTesBeasiswa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/tes_beasiswa" />
                 </LinearLayout>
 
                 <View

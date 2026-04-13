@@ -21,8 +21,9 @@ public class PendaftaranReguler extends BaseActivity {
 
         // Inisialisasi Tombol Jalur Pendaftaran
         ImageView btnJalurAkademik = findViewById(R.id.btnJalurAkademik);
-        ImageView btnTesBeasiswa = findViewById(R.id.btnTesBeasiswa);
         ImageView btnJalurBeasiswa = findViewById(R.id.btnJalurBeasiswa);
+        ImageView btnTesBeasiswa = findViewById(R.id.btnTesBeasiswa);
+        ImageView btnPrestasi = findViewById(R.id.btnprestasi);
         ImageView btnTesReguler = findViewById(R.id.btnTesReguler);
 
         // Navigasi ke Jalur Pendaftaran
@@ -32,15 +33,22 @@ public class PendaftaranReguler extends BaseActivity {
             });
         }
 
+        // Jalur Beasiswa (kanan atas — karya sendiri yang dipulihkan)
+        if (btnJalurBeasiswa != null) {
+            btnJalurBeasiswa.setOnClickListener(v -> {
+                startActivity(new Intent(PendaftaranReguler.this, JalurBeasiswaActivity.class));
+            });
+        }
+
         if (btnTesBeasiswa != null) {
             btnTesBeasiswa.setOnClickListener(v -> {
                 startActivity(new Intent(PendaftaranReguler.this, JalurTesBeasiswaActivity.class));
             });
         }
 
-        if (btnJalurBeasiswa != null) {
-            btnJalurBeasiswa.setOnClickListener(v -> {
-                startActivity(new Intent(PendaftaranReguler.this, JalurBeasiswaActivity.class));
+        if (btnPrestasi != null) {
+            btnPrestasi.setOnClickListener(v -> {
+                startActivity(new Intent(PendaftaranReguler.this, JalurPrestasiActivity.class));
             });
         }
 
